@@ -204,6 +204,13 @@ public void domanyTask(ModelMap model, HttpServletRequest request,
 	System.out.println("welcome");
 }
 
+@RequestMapping(value = "/many1Task.mm", method = { RequestMethod.GET, RequestMethod.POST })
+public void domany1Task(ModelMap model, HttpServletRequest request,
+		@RequestParam(value = "loc", required = false) String loc,
+		 HttpSession session)
+		throws UnknownHostException, ParseException, SocketException {
+
+	System.out.println("welcome");
 }
-	
+}	
 
