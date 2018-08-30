@@ -202,4 +202,15 @@ public  class UserManagerImpl implements UserManager {
 		List<Student> st=ht.find("from Student");
 		return st;
 	}
+
+
+	public List<Object> getObjectRecords1() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public List<Object> getObjectRecords(){
+		List<Object> o=session.createSQLQuery("select * from Student").list();
+		return o;
+	}
 }

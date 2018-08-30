@@ -22,6 +22,7 @@ import java.util.UUID;
 
 
 
+
 import com.skemty.entity.AdminDetail;
 import com.skemty.entity.Employee;
 import com.skemty.entity.Student;
@@ -92,6 +93,9 @@ public interface UserManager {
 
 
 	public List<Student> showAllMyRecords();
+
+
+	public List<Object> getObjectRecords();
 
 
 

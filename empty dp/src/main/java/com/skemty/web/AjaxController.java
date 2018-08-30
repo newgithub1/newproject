@@ -63,5 +63,9 @@ public List<Student> showAllMyRecords(){
 	List<Student> st=userManager.showAllMyRecords();
 	return st;
 }
-
+@RemoteMethod
+public List<Object> getObjectRecords(){
+	List<Object> ob=userManager.getObjectRecords();
+	return ob;
+}
 }
