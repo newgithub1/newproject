@@ -10,4 +10,6 @@ function myDatas(res){
 		}
 	}
 	document.getElemntById("dp").innerHTML=temp;
+	
+	dhfjkgkh
 }
