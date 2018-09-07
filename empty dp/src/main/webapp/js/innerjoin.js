@@ -5,3 +5,7 @@ function callbackmethod(ref){
 	result="";
 	
 }
+function callbackmethod(ref){
+	result="";
+	
+}
